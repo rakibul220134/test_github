@@ -124,7 +124,7 @@ plt.yticks(
 
 # ---------- Input Bit Labels ----------
 for i, bit in enumerate(digital_data):
-    plt.text(i + 0.5, max(s0) + 1, bit, ha='center', va='bottom', fontsize=12, fontweight='bold')
+    plt.text(i + 0.5, max(s0) + 1, bit, ha='center', va='top', fontsize=12, fontweight='bold')
 
 # ---------- Final Touch ----------
 plt.xlabel("Time")
